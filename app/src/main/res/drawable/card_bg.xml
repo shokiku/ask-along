@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 質問カード: 半透明の黒の細い帯。映像を隠しすぎないように(2026-10-04 の見た目の比較で C 案に決定) -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/card_bg" />
-    <corners android:radius="20dp" />
+    <solid android:color="#9E0A0C10" />
+    <corners android:radius="999dp" />
 </shape>

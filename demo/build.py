@@ -23,19 +23,21 @@ GAP = 0.25  # ナレーションどうしの最短の間(秒)
 # デモ部分の語り。映像の中でその動きが起きる時刻(デモ部分の先頭からの秒)に合わせて置く
 DEMO_LINES = [
     ("d1", 0.5, "Pick a show."),
-    ("d2", 8.0, "As you watch, a question for your child appears, about what is on screen right now."),
-    ("d3", 10.0, "Press OK, and the show pauses while your child answers."),
-    ("d4", 16.0, "Press OK again to keep watching."),
-    ("d5", 25.0, "If a question doesn't fit, press Back to skip it. "
+    ("d2", 9.3, "As you watch, a question for your child appears, about what is on screen right now."),
+    ("d3", 11.3, "Press OK, and the show pauses while your child answers."),
+    ("d4", 17.3, "Press OK again to keep watching."),
+    ("d5", 26.3, "If a question doesn't fit, press Back to skip it. "
                  "Skips are reported, and a question skipped three times is removed."),
 ]
 # デモ部分の映像: (ファイル, 開始秒, 終了秒)。raw/events*.txt の時刻から選んだ
 # 録画そのもの(raw/seg*.mp4)はキーフレームが少なく、途中から切ると冒頭が黒くなったので、
 # 毎秒キーフレームを入れた *_cfr.mp4(ffmpeg -vf fps=30 -g 30)を使う
-DEMO_CLIPS = [("raw/seg1_cfr.mp4", 3, 10), ("raw/seg2_cfr.mp4", 18, 35), ("raw/seg2_cfr.mp4", 66, 74)]
+# seg3 は質問カードを右上の小さい帯に変えた後に撮り直したもの(raw/events3.txt: card 18, ask 20, resume 26, card2 66, skip 68)
+DEMO_CLIPS = [("raw/seg1_cfr.mp4", 3, 10), ("raw/seg3_cfr.mp4", 17, 34), ("raw/seg3_cfr.mp4", 65, 73)]
 # デモ部分の字幕: (画像, 表示開始, 表示終了) デモ部分の先頭からの秒
-DEMO_CAPTIONS = [("cap_list", 0, 7), ("cap_card", 7, 10), ("cap_ask", 10, 16), ("cap_resume", 16, 20),
-                 ("cap_card", 24, 26), ("cap_skip", 26, 32)]
+# 時刻は録画のフレームを見て決めた(カードが出る 9.25、OK 約11.3、消える 17.25、2枚目 26.25、戻るで消える 27.6)
+DEMO_CAPTIONS = [("cap_list", 0, 7), ("cap_card", 9.25, 11.3), ("cap_ask", 11.3, 17.25), ("cap_resume", 17.25, 21),
+                 ("cap_card", 26.25, 27.6), ("cap_skip", 27.6, 33)]
 
 
 def run(*args: str) -> None:
@@ -85,7 +87,7 @@ def demo_part(polly, out: Path) -> None:
     last, n = "vp", len(DEMO_CLIPS)
     for j, (cap, s, e) in enumerate(DEMO_CAPTIONS):
         inputs += ["-i", str(HERE / "slides" / f"{cap}.png")]
-        filters.append(f"[{last}][{n + j}:v]overlay=0:0:enable='between(t,{s},{e})'[o{j}]")
+        filters.append(f"[{last}][{n + j}:v]overlay=0:0:enable='between(t,{s},{e - 0.04})'[o{j}]")
         last = f"o{j}"
     base = n + len(DEMO_CAPTIONS)
     for k, (path, start) in enumerate(placed):

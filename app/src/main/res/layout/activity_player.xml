@@ -11,39 +11,58 @@
         android:layout_height="match_parent"
         app:use_controller="false" />
 
-    <!-- 質問カード。テレビの外周5%には置かない(Fire TV のデザイン指針) -->
+    <!-- 質問カード。右上の小さい帯(字幕は画面の下に出るので重ならない)。
+         テレビの外周5%には置かない(Fire TV のデザイン指針)。本文は 14sp 以上 -->
     <LinearLayout
         android:id="@+id/card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|end"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
         android:background="@drawable/card_bg"
-        android:elevation="8dp"
-        android:maxWidth="560dp"
-        android:orientation="vertical"
-        android:paddingHorizontal="28dp"
-        android:paddingVertical="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="22dp"
+        android:paddingBottom="10dp"
         android:visibility="gone">
 
         <TextView
-            android:id="@+id/card_question"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:maxWidth="500dp"
-            android:textColor="@color/card_ink"
-            android:textSize="28sp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/card_icon_bg"
+            android:gravity="center"
+            android:text="\?"
+            android:textColor="#111111"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/card_hint"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/card_hint"
-            android:textColor="@color/card_muted"
-            android:textSize="15sp" />
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/card_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="380dp"
+                android:textColor="@color/card_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/card_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/card_hint"
+                android:textColor="@color/card_hint"
+                android:textSize="14sp" />
+        </LinearLayout>
     </LinearLayout>
     <TextView
         android:id="@+id/error"
