@@ -1,0 +1,12 @@
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+media/
+tools/.venv/
+__pycache__/
+demo/raw/
+demo/build/
+demo/audio/
+.DS_Store

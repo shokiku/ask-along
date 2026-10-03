@@ -1,0 +1,62 @@
+[
+  {
+    "t_ms": 69116,
+    "type": "open",
+    "question": "How does the bunny feel?",
+    "scene": "A big bunny is sniffing flowers."
+  },
+  {
+    "t_ms": 112366,
+    "type": "wh",
+    "question": "Where is the butterfly flying?",
+    "scene": "A big bunny with a big belly is running in a field. A purple butterfly is flying in front of him. The field is green and there are mountains in the background."
+  },
+  {
+    "t_ms": 160533,
+    "type": "completion",
+    "question": "The bunny is sniffing the ___.",
+    "scene": "A big gray-white rabbit is standing in a green field with flowers and trees in the background."
+  },
+  {
+    "t_ms": 203866,
+    "type": "recall",
+    "question": "What was the big bunny doing before?",
+    "scene": "A big brown animal is holding a purple butterfly. A small brown squirrel is jumping near a big tree. A gray-white rabbit is standing near the tree."
+  },
+  {
+    "t_ms": 250450,
+    "type": "distancing",
+    "question": "Have you ever seen a bunny like this before?",
+    "scene": "A big gray-white bunny is holding a green vine in his hand."
+  },
+  {
+    "t_ms": 304908,
+    "type": "open",
+    "question": "What is the big brown animal holding?",
+    "scene": "A big brown animal is holding a purple butterfly. A small brown squirrel is jumping near a big tree. A gray-white rabbit is standing near the tree."
+  },
+  {
+    "t_ms": 334033,
+    "type": "wh",
+    "question": "What is the squirrel holding?",
+    "scene": "A brown squirrel is holding a green nut and looking up at a wooden swing."
+  },
+  {
+    "t_ms": 390491,
+    "type": "completion",
+    "question": "The bird is sitting on a ___ branch.",
+    "scene": "A purple bird is sitting on a tree branch."
+  },
+  {
+    "t_ms": 440283,
+    "type": "recall",
+    "question": "What was the squirrel holding earlier?",
+    "scene": "A brown squirrel is jumping in the air with its paws up."
+  },
+  {
+    "t_ms": 479866,
+    "type": "distancing",
+    "question": "Have you seen a bunny like this one before?",
+    "scene": "A big bunny is standing in a field with flowers and trees."
+  }
+]

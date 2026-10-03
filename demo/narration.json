@@ -1,0 +1,26 @@
+[
+ {
+  "id": "a_title",
+  "text": "Ask-Along. Turn screen time into talk time, on Fire TV."
+ },
+ {
+  "id": "b_problem",
+  "text": "Most parents watch shows with their young kids. Seventy-four percent do, at least sometimes. Research shows that preschoolers learn more from video when a parent pauses and asks questions. In a study of eighty-one families, children whose parents paused and asked questions did better on story comprehension and vocabulary. But in the moment, most parents don't know what to ask."
+ },
+ {
+  "id": "c_solution",
+  "text": "Ask-Along gives parents the right question, at the right moment."
+ },
+ {
+  "id": "d_demo",
+  "text": "Pick a show. As you watch, a question for your child appears, about what is on screen right now. Press OK, and the show pauses while your child answers. Press OK again to keep watching. When the scene changes, the card goes away. If a question doesn't fit, press Back to skip it. Skips are reported, and a question skipped three times is removed."
+ },
+ {
+  "id": "e_how",
+  "text": "Here is how it works. When a video is uploaded to Amazon S3, an AWS Lambda function starts. Amazon Rekognition splits the video into shots. For each moment, Amazon Nova Pro first describes every frame, then writes a question using only what appears in all of them, so the question matches the screen. The Fire TV app loads the questions when playback starts, and supports Alexa playback commands through Media Session."
+ },
+ {
+  "id": "f_next",
+  "text": "We checked our results frame by frame. Between five and nine out of every ten questions matched the scene. That is why the parent stays in control, with a one button skip. Next, we want to bring Ask-Along to kids' streaming services, like Amazon Kids Plus."
+ }
+]

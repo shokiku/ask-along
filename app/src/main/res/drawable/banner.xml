@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- テレビのホーム画面に並ぶバナー(320x180dp 相当) -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape><solid android:color="#D9480F" /></shape>
+    </item>
+    <item android:gravity="center" android:width="120dp" android:height="80dp">
+        <shape><solid android:color="#FFFFFF" /><corners android:radius="16dp" /></shape>
+    </item>
+</layer-list>

@@ -1,0 +1,98 @@
+[
+  {
+    "t_ms": 43000,
+    "type": "wh",
+    "question": "Who is sleeping in the hole?",
+    "nova_question": "What do you think the bear is doing in the hole?",
+    "scene": "A bear is sleeping inside a hole in the ground.",
+    "review": "edited",
+    "review_note": "Nova は「bear」と書いたが、穴の中にいるのはウサギ"
+  },
+  {
+    "t_ms": 88000,
+    "type": "wh",
+    "question": "Why is the bunny holding the apple?",
+    "nova_question": "Why is the bunny holding the apple?",
+    "scene": "The bunny picks up the apple from the ground.",
+    "review": "kept"
+  },
+  {
+    "t_ms": 133000,
+    "type": "completion",
+    "question": "The bunny is hiding behind the ___.",
+    "nova_question": "The bunny will eat the apple.",
+    "scene": "The bunny is holding an apple and looking at it.",
+    "review": "edited",
+    "review_note": "Nova の文は質問ではなく、りんごも映っていない。実際はウサギが木の陰にいる"
+  },
+  {
+    "t_ms": 178000,
+    "type": "recall",
+    "question": "What did the mean animals do to the bunny?",
+    "nova_question": "What did the bunny pick up from the ground?",
+    "scene": "The bunny picks up an apple from the ground.",
+    "review": "edited",
+    "review_note": "Nova の「何を拾った?」は画面と合わない。直前に3匹がウサギにいたずらしている"
+  },
+  {
+    "t_ms": 223000,
+    "type": "distancing",
+    "question": "Have you ever felt sad like the bunny?",
+    "nova_question": "Have you ever seen a bunny before?",
+    "scene": "The bunny is standing in a field.",
+    "review": "edited",
+    "review_note": "Nova の「ウサギを見たことある?」は場面と関係が薄い"
+  },
+  {
+    "t_ms": 268000,
+    "type": "open",
+    "question": "What do you think the bunny will do with the rope?",
+    "nova_question": "What do you think the bunny will do with the rope?",
+    "scene": "The bunny is holding a rope and looking at it.",
+    "review": "kept"
+  },
+  {
+    "t_ms": 313000,
+    "type": "wh",
+    "question": "Where are the three animals going?",
+    "nova_question": "Why are the animals standing in the grass?",
+    "scene": "The animals are standing in the grass and looking around.",
+    "review": "edited",
+    "review_note": "Nova の「なぜ草の中に立っている?」は画面と合わない。3匹は歩いている"
+  },
+  {
+    "t_ms": 358000,
+    "type": "completion",
+    "question": "The little gray animal found a ___.",
+    "nova_question": "The squirrel will run into the log.",
+    "scene": "The squirrel runs towards a log and climbs into it.",
+    "review": "edited",
+    "review_note": "Nova の文は質問ではない"
+  },
+  {
+    "t_ms": 403000,
+    "type": "recall",
+    "question": "Do you remember who threw fruit at the bunny?",
+    "nova_question": "What did the squirrel do after picking up the apple?",
+    "scene": "The squirrel picks up an apple and then flies away with it.",
+    "review": "edited",
+    "review_note": "Nova の「りんごを拾って飛んだ」は画面と合わない"
+  },
+  {
+    "t_ms": 448000,
+    "type": "distancing",
+    "question": "Would you like to fly like that squirrel?",
+    "nova_question": "Have you ever seen a squirrel before?",
+    "scene": "The squirrel is hanging from a tree branch.",
+    "review": "edited",
+    "review_note": "Nova の「リスを見たことある?」は場面と関係が薄い"
+  },
+  {
+    "t_ms": 486000,
+    "type": "open",
+    "question": "What do you think the bunny is doing with the kite?",
+    "nova_question": "What do you think the bunny is doing with the kite?",
+    "scene": "The bunny is holding a kite and looking at it.",
+    "review": "kept"
+  }
+]

@@ -1,0 +1,504 @@
+{
+  "nova-2-lite+names": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The bunny is coming out of a hole in the ground.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is lying on the grass with purple flowers around it, and a pink butterfly is near the bunny.",
+      "question": "Who is near the bunny?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is sitting in a grassy field with a butterfly flying nearby.",
+      "question": "The ___ is flying near the bunny."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is standing in a green field with trees and mountains in the background.",
+      "question": "What color is the bunny's fur?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The red squirrel, the brown flying squirrel, and the gray chinchilla are in a grassy field near a large tree.",
+      "question": "Do you ever get angry like the squirrels?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is in a forest, holding a green hula hoop.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The red squirrel, brown flying squirrel, and gray chinchilla are hanging from a vine in the forest.",
+      "question": "Who is hanging from the vine?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "a brown flying squirrel is jumping and flying in the sky",
+      "question": "The ___ is jumping and flying in the sky."
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The penguin is standing near the llama, who is lying in the water.",
+      "question": "How does the penguin feel?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The llama is looking at the penguin, who is holding some red berries.",
+      "question": "Why is the penguin holding berries?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The llama is sitting in a wooden cart with the penguin beside it, and they are on a wooden track in a dark cave.",
+      "question": "The ___ is sitting in a wooden cart."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The llama is lying on the snow with its eyes closed, and the penguin is standing next to it.",
+      "question": "What is the penguin doing next to the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The llama is looking around in a snowy mountain landscape.",
+      "question": "Do you ever feel curious like the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The brown llama with a long neck and big eyes is sitting on a rock in a snowy landscape.",
+      "question": "How does the llama feel?"
+    }
+  ],
+  "nova-2-lite+names+2step": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": false,
+      "scene": "A large gray-white rabbit is sleeping in the hole. / The large gray-white rabbit is still sleeping in the hole. / The bunny is waking up and looking out of the hole."
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "the bunny is lying on the grass, looking at the butterfly. / the bunny is lying on the grass, and the butterfly lands on its head. / the bunny is lying on the grass, smiling as the butterfly flies away.",
+      "question": "Why did the butterfly land on the bunny's head?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "the bunny is sitting in the grass, looking around. / the bunny watches as a pink butterfly flies past. / the bunny smiles broadly, looking happy and content.",
+      "question": "The bunny is sitting in the ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "standing in the field, looking around / standing in the field, looking around / standing in the field, looking around",
+      "question": "What did the bunny look at before?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The red squirrel is looking intently at something off-screen. / The red squirrel and brown flying squirrel are facing each other, while the bunny holds a nut. / The red squirrel holds a spiky green object, the brown flying squirrel holds another spiky green object, and the bunny still holds a nut.",
+      "question": "Do you have a squirrel like that?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "the bunny is jumping through the hula hoop / the bunny is holding the hula hoop and looking around / the bunny is scratching its chin with one hand",
+      "question": "What is the bunny holding?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "the characters are standing together, looking determined. / the characters are standing close together, looking excited and ready for action. / the characters are on a swing, looking happy and enjoying the moment.",
+      "question": "Why are the characters looking determined?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "The brown flying squirrel is standing on a branch with its arms outstretched, looking excited. / The brown flying squirrel is gliding through the air with its wings spread, looking joyful. / There is a fluffy white cloud floating in the clear blue sky."
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": false,
+      "scene": "the penguin is standing on the snow, looking around. / the llama is lying in the water, resting. / the llama is looking up with wide eyes, appearing surprised or curious."
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "the llama is sleeping / the llama is waking up / the penguin is offering fruits to the llama, who is eating them",
+      "question": "Why is the penguin giving fruits to the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "the llama is sitting in the cart with the penguin, looking around. / the llama and the penguin are riding the cart down the staircase. / the scene shows the empty staircase and surrounding rocks."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "the llama is lying down resting, and the penguin is standing nearby, looking at the llama. / the llama is lying down resting, and the penguin is standing nearby, looking at the llama. / the llama is lying down resting and yawning.",
+      "question": "What did the llama do before yawning?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": false,
+      "scene": "the llama is looking to the side with wide eyes / the llama is winking with one eye closed / no characters are visible"
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "the llama is sitting on a rock, looking around. / the llama is sitting on a rock, looking around, with a red ball floating nearby. / the llama is sitting on a rock, looking around.",
+      "question": "What is the llama looking at?"
+    }
+  ],
+  "nova-pro+names+2step": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "the bunny is sleeping. / the bunny is sleeping. / the bunny is looking up.",
+      "question": "How do you think the bunny feels while sleeping?"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The bunny is trying to catch the butterfly. / The bunny is trying to catch the butterfly. / The bunny is trying to catch the butterfly.",
+      "question": "Why is the bunny trying to catch the butterfly?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The bunny is standing and holding a flower. / The bunny is standing and looking at the butterfly. / The bunny is standing and smiling.",
+      "question": "The bunny is standing and looking at the ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "the bunny is standing and looking up / the bunny is standing and looking up / the bunny is standing and looking up",
+      "question": "What did the bunny do before standing and looking up?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "the bunny is eating a nut; brown flying squirrel is looking at the bunny. / the bunny is eating a nut; red squirrel is looking at brown flying squirrel; brown flying squirrel is looking at red squirrel. / the bunny is eating a nut; red squirrel is looking at brown flying squirrel; brown flying squirrel is looking at red squirrel.",
+      "question": "Have you ever shared a nut with a friend like bunny?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The bunny is holding a green hula hoop. / The bunny is holding a green rope. / The bunny is holding a green rope.",
+      "question": "How do you think the bunny feels holding the green rope?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The red squirrel is holding a nut. / The red squirrel is holding a nut. / The red squirrel is holding a nut.",
+      "question": "Who is holding the nut?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "standing on a branch with arms outstretched / flying with arms outstretched / "
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The penguin is standing and the llama is lying down. / The llama is lying down. / The llama is lying down.",
+      "question": "How do you think the llama feels lying down?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The llama is looking down. / The llama is looking to the right. / The penguin is looking up at the tomatoes. The llama is looking down. The penguin is holding a white object. The penguin is wearing a white object on its head.",
+      "question": "What is the penguin looking at?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "The llama and penguin are riding a mine cart. / The llama and penguin are riding a mine cart. / The mine cart is moving on the track."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The penguin is standing on the back of the lying down llama. / The penguin is standing on the back of the lying down llama. / The lying down llama is looking at something. The penguin is not visible.",
+      "question": "What did the penguin do before standing on the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": false,
+      "scene": "The llama is standing and looking to the right. / The llama is standing and looking to the left. / No characters are visible in this frame."
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "the llama is sitting on a rock / the llama is sitting on a rock / the llama is sitting on a rock",
+      "question": "How do you think the llama feels sitting on the rock?"
+    }
+  ]
+}

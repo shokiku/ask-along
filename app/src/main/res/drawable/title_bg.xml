@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 作品のボタン。フォーカスが当たったら縁を光らせる(離れて見てもどれを選んでいるか分かるように) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#2A303B" />
+            <stroke android:width="4dp" android:color="#FF8A3D" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#1E232C" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</selector>

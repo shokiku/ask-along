@@ -1,0 +1,512 @@
+{
+  "nova-pro": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "A large animal with long ears is sitting in a hole in the ground.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "A white bunny is playing with a purple butterfly on a green lawn with purple flowers.",
+      "question": "What is the bunny doing with the butterfly?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "A large white bunny is standing in a green field with a butterfly flying around it.",
+      "question": "The bunny is looking at the ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "A large bunny stands in a green field with flowers, trees, and a mountain in the background.",
+      "question": "What did the bunny do earlier in the film?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "A squirrel and a chipmunk are facing each other, with a large tree trunk behind them.",
+      "question": "Do you think the squirrel and chipmunk are friends?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "A large white bunny is standing in a forest, holding a green rope and looking at the camera.",
+      "question": "What is the bunny holding?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "Three animals are standing together in a forest.",
+      "question": "What are the three animals doing?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "A squirrel is standing on a branch, then jumps and flies through the air, and then a cloud is shown.",
+      "question": "The squirrel is flying through the ___."
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "A brown and white animal with big eyes is lying on the snow.",
+      "question": "How does the animal feel?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "A brown and white animal with a black eye patch is eating something.",
+      "question": "What is the animal eating?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "A small animal is riding a cart on a track.",
+      "question": "The little animal is riding a ___ on a track. "
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "A bird is standing on a sleeping animal.",
+      "question": "What did the bird do earlier?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "A cartoon animal with big eyes and a long neck stands in front of a snowy mountain range.",
+      "question": "Do you like to look at snowy mountains too?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "A brown animal with big eyes and a long neck is sitting on a rock in a snowy landscape.",
+      "question": "What is the animal doing?"
+    }
+  ],
+  "nova-pro+names": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "A big gray-white rabbit is sitting in a hole in the grass.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The bunny is playing with a pink butterfly on a green grass field with purple flowers.",
+      "question": "What is the bunny doing with the butterfly?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The bunny is standing on a green field, holding a carrot, with a purple bird flying above.",
+      "question": "The bunny is holding a ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The bunny stands in a field of grass and flowers.",
+      "question": "What did the bunny do earlier?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The red squirrel and the brown flying squirrel are standing next to each other, and the bunny is standing near a tree.",
+      "question": "Do you like to eat nuts like the bunny?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The bunny is standing in the forest holding a green rope.",
+      "question": "What is the bunny doing with the green rope?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "Three mean little animals are standing together, with the gray chinchilla holding a brown ball.",
+      "question": "What is the gray chinchilla holding?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "The flying squirrel jumps from a branch and flies in the air.",
+      "question": "The flying squirrel is flying in the ___. (air)"
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The penguin is standing in the snow, and the llama is lying down.",
+      "question": "How does the penguin feel?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The penguin is eating a tomato while the llama looks on.",
+      "question": "What is the penguin eating?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The llama is riding a wooden cart on a track.",
+      "question": "The llama is riding a ___ on a track."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The penguin is standing on the sleeping llama.",
+      "question": "What did the penguin do earlier?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The llama is standing in front of a snowy mountain.",
+      "question": "Have you ever seen a mountain with snow like the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The llama is sitting on a rock in the snow.",
+      "question": "How does the llama look?"
+    }
+  ],
+  "nova-2-lite+names": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The bunny is coming out of a hole in the ground.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is lying on the grass with purple flowers around, and a pink butterfly is flying nearby.",
+      "question": "Who is flying near the bunny?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The big bunny is sitting in a green field, looking at a purple butterfly.",
+      "question": "The bunny is looking at the ___ butterfly."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is standing in a green field with trees and mountains in the background.",
+      "question": "What color is the bunny?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The red squirrel, brown flying squirrel, and gray chinchilla are in a grassy field near a large tree.",
+      "question": "Do you ever get angry like the squirrels?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The big gray-white bunny is holding a green hula hoop.",
+      "question": "How does the bunny feel?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The three mean little animals are standing together in a forest.",
+      "question": "Who are the three little animals?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "a brown flying squirrel is jumping in the air",
+      "question": "The brown flying squirrel is ___ in the air."
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The penguin is standing near the llama, who is lying in the water.",
+      "question": "How does the penguin feel?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The llama is looking at the penguin, who is holding some red berries.",
+      "question": "Why is the penguin holding berries?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The llama is sitting in a wooden cart on a wooden track inside a cave, with the penguin standing next to it.",
+      "question": "The ___ is sitting in a wooden cart."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The brown llama is lying on the snow, and the small penguin is standing next to it.",
+      "question": "What is the penguin doing near the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "The images show the llama with big eyes looking around in a snowy mountain landscape.",
+      "question": "Do you ever feel curious like the llama?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The brown llama with a long neck and big eyes is sitting on a rock in a snowy mountain landscape.",
+      "question": "How does the llama feel?"
+    }
+  ]
+}

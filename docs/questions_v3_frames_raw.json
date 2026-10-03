@@ -1,0 +1,62 @@
+[
+  {
+    "t_ms": 69116,
+    "type": "open",
+    "question": "How does the bunny feel when he smells the flowers?",
+    "scene": "A big bunny with big eyes is sniffing flowers."
+  },
+  {
+    "t_ms": 112366,
+    "type": "wh",
+    "question": "What is the bunny smelling?",
+    "scene": "A big bunny with big eyes is sniffing flowers."
+  },
+  {
+    "t_ms": 160533,
+    "type": "completion",
+    "question": "The bunny is sniffing the ___.",
+    "scene": "A big gray-white rabbit with big eyes is sniffing flowers."
+  },
+  {
+    "t_ms": 203866,
+    "type": "recall",
+    "question": "What was the big bunny doing before?",
+    "scene": "A big brown animal is holding a purple butterfly. A small brown squirrel is jumping up and down. A small gray squirrel is looking at the butterfly."
+  },
+  {
+    "t_ms": 250450,
+    "type": "distancing",
+    "question": "Do you like to play with ropes too?",
+    "scene": "A big gray-white bunny is holding a green rope."
+  },
+  {
+    "t_ms": 304908,
+    "type": "open",
+    "question": "What is the big bunny doing?",
+    "scene": "A big bunny with big eyes is sniffing flowers. A small brown squirrel is jumping up and down. A small gray squirrel is looking at the bunny."
+  },
+  {
+    "t_ms": 334033,
+    "type": "wh",
+    "question": "What is the squirrel holding?",
+    "scene": "A brown squirrel is holding a green ball and looking up."
+  },
+  {
+    "t_ms": 390491,
+    "type": "completion",
+    "question": "The bird flew away from the ___.",
+    "scene": "A big tree trunk with a branch on the right side."
+  },
+  {
+    "t_ms": 440283,
+    "type": "recall",
+    "question": "What was the squirrel holding earlier?",
+    "scene": "A brown squirrel is falling from the sky."
+  },
+  {
+    "t_ms": 479866,
+    "type": "distancing",
+    "question": "Do you like to smell flowers like the bunny?",
+    "scene": "A big gray-white bunny with big eyes is standing on a green field with yellow flowers and trees in the background."
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "nova-pro+names+2step": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": false,
+      "scene": "絵の数と説明の数が合わない: [{'characters': [], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': ''}, {'characters': [], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': ''}, {'characters': ['bunny'], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': 'bunny is sleeping.'}, {'characters': ['bunny'], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': 'bunny is sleeping.'}, {'characters': ['bunny'], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': 'bunny is looking up.'}, {'characters': ['bunny'], 'objects': ['rock', 'rock', 'rock', 'rock'], 'actions': 'bunny is looking up.'}]"
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "bunny is trying to catch butterfly / bunny is trying to catch butterfly / bunny is trying to catch butterfly / bunny is trying to catch butterfly / bunny is trying to catch butterfly",
+      "question": "Why is the bunny trying to catch the butterfly?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "bunny is standing on the grass and looking at something. / bunny is standing on the grass and looking at the butterfly. / bunny is standing on the grass and looking at the butterfly. / bunny is standing on the grass and looking at something. / bunny is standing on the grass and looking at something.",
+      "question": "The bunny is looking at the ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "bunny is standing in the grass. / bunny is standing in the grass. / bunny is standing in the grass. / bunny is standing in the grass. / bunny is standing in the grass.",
+      "question": "What did the bunny do before standing in the grass?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "flying squirrel is looking at bunny / flying squirrel is looking at red squirrel / flying squirrel is looking at red squirrel / flying squirrel is looking at red squirrel / flying squirrel is looking at red squirrel",
+      "question": "Have you ever seen a squirrel like the flying squirrel?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "bunny is holding a hula hoop. / bunny is holding a hula hoop. / bunny is holding a rope. / bunny is holding a rope. / bunny is holding a rope.",
+      "question": "What is the bunny doing with the hula hoop?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": false,
+      "scene": "絵の数と説明の数が合わない: [{'characters': ['bunny', 'flying squirrel', 'red squirrel'], 'objects': ['trees', 'rocks', 'grass', 'bushes'], 'actions': 'The characters are standing together in a forest.'}, {'characters': ['bunny', 'flying squirrel', 'red squirrel'], 'objects': ['trees', 'rocks', 'grass', 'bushes'], 'actions': 'The characters are standing together in a forest.'}, {'characters': ['bunny', 'flying squirrel', 'red squirrel'], 'objects': ['trees', 'rocks', 'grass', 'bushes'], 'actions': 'The characters are standing together in a forest.'}, {'characters': ['bunny', 'flying squirrel', 'red squirrel'], 'objects': ['trees', 'rocks', 'grass', 'bushes'], 'actions': 'The characters are standing together in a forest.'}]"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "standing on a branch / standing on a branch / flying in the air / flying above a branch / "
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": false,
+      "scene": "絵の数と説明の数が合わない: [{'characters': ['penguin', 'llama'], 'objects': ['fence', 'rock', 'snow', 'leaves'], 'actions': 'penguin is standing, llama is looking at penguin'}, {'characters': ['penguin', 'llama'], 'objects': ['fence', 'rock', 'snow', 'leaves'], 'actions': 'penguin is standing, llama is looking at penguin'}, {'characters': ['llama'], 'objects': ['fence', 'rock', 'snow', 'leaves'], 'actions': 'llama is looking at something'}, {'characters': ['llama'], 'objects': ['fence', 'rock', 'snow', 'leaves'], 'actions': 'llama is looking at something'}]"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": false,
+      "scene": "映っていない登場人物を質問に入れ続けた: ['penguin']"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "Llama is pushing a cart with a penguin inside. / Llama is pushing a cart with a penguin inside. / Llama is pushing a cart with a penguin inside. / Llama is pushing a cart with a penguin inside. / No characters visible."
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": false,
+      "scene": "映っていない登場人物を質問に入れ続けた: ['penguin']"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": false,
+      "scene": "Standing still. / Standing still. / Standing still. /  / "
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The llama is sitting on a rock. / The llama is sitting on a rock. / The llama is sitting on a rock. / The llama is sitting on a rock. / The llama is sitting on a rock.",
+      "question": "How do you think the llama feels sitting on the rock?"
+    }
+  ],
+  "nova-2-lite+names+2step": [
+    {
+      "film": "bbb",
+      "row": 0,
+      "window": [
+        39.666,
+        47.465999999999994
+      ],
+      "type": "open",
+      "same_scene": false,
+      "scene": "A character is sleeping in the hole. / The character is still sleeping in the hole. / The character begins to wake up in the hole. / The bunny is waking up in the hole. / The bunny is fully awake and looking around from the hole."
+    },
+    {
+      "film": "bbb",
+      "row": 1,
+      "window": [
+        77.041,
+        79.716
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The bunny is lying on the grass, looking at the butterfly. / The bunny is lying on the grass, and the butterfly is hovering near its head. / The bunny is lying on the grass, and the butterfly lands on its head. / The bunny is lying on the grass, looking up at the butterfly on its head. / The bunny is lying on the grass, smiling as the butterfly flies away.",
+      "question": "Why is the butterfly on the bunny's head?"
+    },
+    {
+      "film": "bbb",
+      "row": 2,
+      "window": [
+        105.416,
+        111.966
+      ],
+      "type": "completion",
+      "same_scene": true,
+      "scene": "The bunny is sitting in the field, looking around. / The bunny is looking at the butterfly, which is flying near its face. / The bunny watches as the butterfly flies around it. / The bunny continues to watch the butterfly, which is now further away. / The bunny smiles broadly, looking happy and content.",
+      "question": "The bunny is watching the ___."
+    },
+    {
+      "film": "bbb",
+      "row": 3,
+      "window": [
+        157.5,
+        160.591
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "standing in the field, looking around. / throws a small object into the air. / stands still, looking around with a curious expression. / stands in the field, looking around with a calm expression. / stands in the field, looking around with a slightly concerned expression.",
+      "question": "What did bunny throw in the air?"
+    },
+    {
+      "film": "bbb",
+      "row": 4,
+      "window": [
+        215.291,
+        220.258
+      ],
+      "type": "distancing",
+      "same_scene": true,
+      "scene": "red squirrel is looking around with a curious expression. / red squirrel is looking at chinchilla and butterfly with a mischievous grin. / red squirrel is speaking to chinchilla and butterfly, who are listening. / red squirrel and butterfly are holding spiky green balls, looking determined. / red squirrel and butterfly are facing each other, each holding a spiky green ball, looking intense.",
+      "question": "Do you ever feel very curious like the squirrel?"
+    },
+    {
+      "film": "bbb",
+      "row": 5,
+      "window": [
+        271.833,
+        275.716
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "bunny is jumping through the hula hoop / bunny is jumping through the hula hoop / bunny is holding the hula hoop and looking around / bunny is holding the hula hoop and looking around / bunny is standing and looking around",
+      "question": "What is the bunny holding?"
+    },
+    {
+      "film": "bbb",
+      "row": 6,
+      "window": [
+        325.208,
+        331.216
+      ],
+      "type": "wh",
+      "same_scene": true,
+      "scene": "The characters are standing together, looking at the camera. / The characters are standing together, with the red squirrel looking surprised. / The characters are standing together, with the red squirrel looking determined. / The characters are standing together, with the red squirrel looking excited as they are on a swing. / The characters are on a swing, with the red squirrel looking excited and the bunny looking happy.",
+      "question": "Why is the red squirrel excited?"
+    },
+    {
+      "film": "bbb",
+      "row": 7,
+      "window": [
+        401.208,
+        404.716
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "The flying squirrel is standing on a branch with arms outstretched, looking excited. / The flying squirrel is jumping off the branch, preparing to glide. / The flying squirrel is gliding through the air with arms outstretched. / The flying squirrel is gliding towards a branch, looking focused. / A cloud is floating in the sky."
+    },
+    {
+      "film": "caminandes3",
+      "row": 0,
+      "window": [
+        22.875,
+        30.258
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "The penguin stands near the llama, looking up at it. / The penguin looks surprised as the llama lies down on the ice. / The llama lies on the ice, looking relaxed. / The llama closes its eyes, appearing to rest. / The llama opens its eyes wide, looking alert.",
+      "question": "How does the llama feel now?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 1,
+      "window": [
+        58.291,
+        62.007999999999996
+      ],
+      "type": "wh",
+      "same_scene": false,
+      "scene": "映っていない登場人物を質問に入れ続けた: ['penguin']"
+    },
+    {
+      "film": "caminandes3",
+      "row": 2,
+      "window": [
+        63.75,
+        66.175
+      ],
+      "type": "completion",
+      "same_scene": false,
+      "scene": "絵の数と説明の数が合わない: [{'characters': ['llama', 'penguin'], 'objects': ['wooden cart', 'staircase', 'rocks', 'wooden planks'], 'actions': 'The llama is sitting in the cart with the penguin beside it, looking ahead as the cart moves along the tracks.'}, {'characters': ['llama', 'penguin'], 'objects': ['wooden cart', 'staircase', 'rocks', 'wooden planks'], 'actions': 'The llama is holding onto the penguin, who is gripping a red object, as the cart continues to move along the tracks.'}, {'characters': ['llama', 'penguin'], 'objects': ['wooden cart', 'staircase', 'rocks', 'wooden planks'], 'actions': 'The llama is holding the penguin, who is still gripping the red object, and the cart is moving steadily along the tracks.'}, {'characters': [], 'objects': ['staircase', 'rocks', 'wooden planks'], 'actions': 'The scene shows the empty staircase and tracks, with no characters present.'}]"
+    },
+    {
+      "film": "caminandes3",
+      "row": 3,
+      "window": [
+        97.0,
+        101.55
+      ],
+      "type": "recall",
+      "same_scene": true,
+      "scene": "The llama is lying on the snow, and the penguin is standing on its back. / The llama is lying on the snow, yawning widely, and the penguin is standing on its back. / The llama is lying on the snow, looking up with wide eyes, and the penguin is standing on its back. / The llama is lying on the snow, yawning widely. / The llama is lying on the snow, looking up with wide eyes.",
+      "question": "What did the llama do before?"
+    },
+    {
+      "film": "caminandes3",
+      "row": 4,
+      "window": [
+        105.25,
+        111.425
+      ],
+      "type": "distancing",
+      "same_scene": false,
+      "scene": "looking around with wide eyes / looking around with narrowed eyes / closing its eyes / looking out over the snowy landscape / "
+    },
+    {
+      "film": "caminandes3",
+      "row": 5,
+      "window": [
+        116.0,
+        118.55
+      ],
+      "type": "open",
+      "same_scene": true,
+      "scene": "sitting on a rock / sitting on a rock / sitting on a rock and looking at the ball / sitting on a rock and looking around / sitting on a rock and looking around",
+      "question": "What is the llama looking at?"
+    }
+  ]
+}

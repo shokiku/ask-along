@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ask-Along</string>
+    <string name="card_hint">OK: pause and ask · Back: skip</string>
+    <string name="asking_hint">Waiting for your child\'s answer · OK: keep watching</string>
+    <string name="titles_heading">What are we watching together?</string>
+    <string name="titles_loading">Loading…</string>
+    <string name="titles_error">Could not load the list. Press OK to try again.</string>
+    <string name="titles_empty">No videos yet.</string>
+    <string name="questions_ready">Questions ready</string>
+    <string name="questions_preparing">Questions being prepared</string>
+    <string name="questions_unavailable">Questions are not available for this video. Playing without them.</string>
+    <string name="playback_error">This video can\'t be played (%1$s). Press Back to choose another.</string>
+</resources>

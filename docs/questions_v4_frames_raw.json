@@ -1,0 +1,62 @@
+[
+  {
+    "t_ms": 69116,
+    "type": "open",
+    "question": "How does the bunny feel when smelling the flowers?",
+    "scene": "A big bunny with a big nose is smelling flowers."
+  },
+  {
+    "t_ms": 112366,
+    "type": "wh",
+    "question": "Where is the butterfly flying?",
+    "scene": "A big white bunny with big ears is running on a green field. A purple butterfly is flying near the bunny. In the background, there is a tree and mountains."
+  },
+  {
+    "t_ms": 160533,
+    "type": "completion",
+    "question": "The bunny is standing on a green field of ___.",
+    "scene": "A big bunny with big ears is standing on a green field."
+  },
+  {
+    "t_ms": 203866,
+    "type": "recall",
+    "question": "What was the big bunny smelling earlier?",
+    "scene": "A brown squirrel is holding a purple butterfly near a tree. A small brown squirrel is jumping near the tree. A gray squirrel is standing near the tree."
+  },
+  {
+    "t_ms": 250450,
+    "type": "distancing",
+    "question": "Do you like to play with ropes too?",
+    "scene": "A big gray-white bunny is holding a green rope."
+  },
+  {
+    "t_ms": 304908,
+    "type": "open",
+    "question": "What is the squirrel doing?",
+    "scene": "A brown squirrel is running in the grass."
+  },
+  {
+    "t_ms": 334033,
+    "type": "wh",
+    "question": "What is the squirrel holding?",
+    "scene": "A squirrel is holding a nut and looking up at a swinging log."
+  },
+  {
+    "t_ms": 390491,
+    "type": "completion",
+    "question": "The bird is sitting on a tree ___. ",
+    "scene": "A tree with a branch and a purple bird on it."
+  },
+  {
+    "t_ms": 440283,
+    "type": "recall",
+    "question": "What was the squirrel holding earlier?",
+    "scene": "A brown squirrel is jumping in the air with its paws raised."
+  },
+  {
+    "t_ms": 479866,
+    "type": "distancing",
+    "question": "Do you like to play outside like the bunny?",
+    "scene": "A big white bunny is standing in a field with flowers and trees."
+  }
+]
