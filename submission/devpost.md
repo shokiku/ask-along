@@ -13,7 +13,7 @@ Fire TV
 AWS Builder (Amazon S3, AWS Lambda, Amazon Rekognition, Amazon Bedrock / Amazon Nova, Amazon Polly — see Product Feedback)
 
 ## Demo video
-https://youtu.be/hDw48AKMZBg
+https://youtu.be/QZy19c3A6oM
 
 ## Code repository
 https://github.com/shokiku/ask-along

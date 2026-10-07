@@ -10,3 +10,7 @@ demo/raw/
 demo/build/
 demo/audio/
 .DS_Store
+demo/build2/
+demo/audio2/
+demo/review/*.png
+demo/review/sb/*_sheet.png

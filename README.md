@@ -6,6 +6,8 @@ Questions are generated in the cloud: Amazon Rekognition splits the video into s
 
 Built for the *Build, Ship, Shape: Amazon Developer Hackathon 2026* (Fire TV track).
 
+Demo video: https://youtu.be/QZy19c3A6oM
+
 ## Why
 Parents often watch shows with their young kids (74% at least sometimes, Common Sense Census 2025). In a trial with 81 families of 3-year-olds, children whose parents paused and asked dialogic questions scored higher on story comprehension and vocabulary (Strouse et al., *Developmental Psychology*, 2013). Ask-Along gives the parent the question at the right moment.
 
@@ -35,7 +37,7 @@ Fire TV app (app/) — Kotlin, Media3 ExoPlayer + MediaSession, D-pad UI
 | `app/` | Fire OS / Android TV app (Kotlin, Media3). `TitlesActivity` (pick a show), `PlayerActivity` (playback + cards), `Questions.kt` (when to show a card), `Api.kt` |
 | `cloud/` | Lambda code (`handler.py`, `questions.py`) and `deploy.sh` (creates/updates S3, IAM role, both Lambdas, the function URL) |
 | `tools/` | `register_video.py` (upload a video with metadata), `make_questions.py` (run the generator locally), `eval_questions.py` (compare generation settings) |
-| `demo/` | How the demo video was made: slides, narration text (Amazon Polly), `build.py` (ffmpeg) |
+| `demo/` | How the demo video was made. `build2.py` builds the current video (emulator footage, the real CloudWatch log of a run, the frames Nova saw; narration in `narration2.json`, Amazon Polly). `review/` records how it was reviewed against the rules and judging criteria. `build.py` made the first version |
 | `docs/` | Design notes and evaluation records (Japanese), evaluation contact sheets |
 | `submission/` | Devpost text, product feedback, friction log, feature requests |
 

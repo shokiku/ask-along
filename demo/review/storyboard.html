@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ask-Along 絵コンテ</title>
+<style>
+  :root { --bg:#f6f6f4; --fg:#1b1d22; --mut:#5d6370; --card:#fff; --line:#e2e2de; --acc:#e8762b; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121417; --fg:#e9eaec; --mut:#9aa1ad; --card:#1b1e23; --line:#2b2f36; } }
+  :root[data-theme="dark"] { --bg:#121417; --fg:#e9eaec; --mut:#9aa1ad; --card:#1b1e23; --line:#2b2f36; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:"Hiragino Sans",system-ui,sans-serif; line-height:1.7; }
+  main { max-width:1100px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:24px; margin:0 0 4px; }
+  .sub { color:var(--mut); font-size:14px; margin:0 0 24px; }
+  .scene { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:20px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:18px; }
+  @media (max-width:760px) { .scene { grid-template-columns:1fr; } }
+  .shot { position:relative; aspect-ratio:16/9; border-radius:8px; overflow:hidden; background:#000; }
+  .shot img { width:100%; height:100%; object-fit:cover; display:block; }
+  .t { font-weight:700; color:var(--acc); font-size:14px; }
+  h2 { font-size:18px; margin:2px 0 8px; }
+  dl { margin:0; font-size:14px; }
+  dt { color:var(--mut); font-size:12px; margin-top:8px; }
+  dd { margin:0; }
+  .nar { font-family:Georgia,serif; font-style:italic; }
+  /* 画面の上に重ねる要素のモック */
+  .ov { position:absolute; font-family:"Helvetica Neue",Arial,sans-serif; color:#fff; }
+  .pill { right:4%; top:5%; background:rgba(20,22,26,.78); border-radius:999px; padding:6px 14px; font-size:13px; max-width:55%; }
+  .cap { left:3%; bottom:5%; background:rgba(0,0,0,.72); border-left:3px solid var(--acc); padding:4px 10px; font-size:13px; }
+  .stat { left:5%; top:12%; font-size:44px; font-weight:800; color:#ffb067; text-shadow:0 2px 8px rgba(0,0,0,.6); }
+  .stat small { display:block; font-size:14px; font-weight:500; color:#fff; max-width:60%; }
+  .dim img { filter:brightness(.45); }
+  .pipe { left:3%; right:3%; bottom:4%; display:flex; gap:6px; font-size:11px; }
+  .pipe span { flex:1; text-align:center; background:rgba(0,0,0,.65); border:1px solid #555; border-radius:6px; padding:3px 0; }
+  .pipe span.on { border-color:var(--acc); color:#ffb067; }
+  .q { left:3%; right:3%; top:6%; background:rgba(0,0,0,.72); padding:6px 10px; font-size:13px; border-radius:6px; }
+  .mark { font-size:30px; font-weight:800; text-shadow:0 2px 6px #000; }
+  .ok { color:#5fd38b; } .ng { color:#ff6b6b; }
+  .check { font-size:13px; color:var(--mut); margin-top:24px; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  td, th { border-bottom:1px solid var(--line); padding:6px 4px; text-align:left; vertical-align:top; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ask-Along デモ動画 絵コンテ(案)</h1>
+  <p class="sub">2026-10-07 作成。目標 約2分15秒。画面の上の文字や枠はモックで、実際の映像に重ねて動かします。静止したスライドは使いません。</p>
+
+  <section class="scene">
+    <div class="shot"><img src="sb/raw_20.jpg" alt="再生中の画面に質問カード"><div class="ov cap">Ask-Along — a question for your child, about this scene</div></div>
+    <div>
+      <div class="t">0:00–0:08 掴み</div>
+      <h2>最初の8秒でアプリが動く</h2>
+      <dl>
+        <dt>映すもの</dt><dd>Fire TV シミュレータで Big Buck Bunny を再生中、右上に質問カードが出る → OK で一時停止</dd>
+        <dt>ナレーション(英語・案)</dt><dd class="nar">“This is Ask-Along. While your family watches, it hands the parent one question about the scene on screen.”</dd>
+        <dt>満たす条件</dt><dd>C2(5秒以内に製品と一言)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="scene">
+    <div class="shot dim"><img src="sb/raw_54.jpg" alt="再生画面を暗くして数字を重ねる"><div class="ov stat">74%<small>of parents of kids 0–8 watch with their kids, at least sometimes</small></div></div>
+    <div>
+      <div class="t">0:08–0:20 課題</div>
+      <h2>再生画面の上に数字を順に重ねる</h2>
+      <dl>
+        <dt>映すもの</dt><dd>再生を続けたまま暗くし、「74%」→「81 families」→「But what should they ask?」を読み上げに合わせて出す</dd>
+        <dt>ナレーション(案)</dt><dd class="nar">“Most parents co-view. Kids learn more when a parent pauses and asks. But in the moment, what do you ask?”</dd>
+        <dt>満たす条件</dt><dd>C7(15秒以内)、C4(背景が動いている)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="scene">
+    <div class="shot"><img src="sb/raw_21.jpg" alt="一時停止中のカード"><div class="ov cap">OK → pause while your child answers</div></div>
+    <div>
+      <div class="t">0:20–1:05 デモ</div>
+      <h2>リモコン操作を全部、実際の画面で</h2>
+      <dl>
+        <dt>映すもの</dt><dd>作品選び → カード → OK 一時停止 → OK 再開 → 場面が変わるとカードが消える → Back でスキップ → Caminandes に切り替えて別タイプの質問(穴埋め・思い出し)</dd>
+        <dt>今との違い</dt><dd>作品選びの画面の8秒を3秒に詰める。2本目の作品と、質問のタイプの違いを足す</dd>
+        <dt>満たす条件</dt><dd>C6</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="scene">
+    <div class="shot"><img style="object-fit:contain" src="sb/nova_grid.jpg" alt="Nova が見た5枚のフレーム"><div class="ov q">Nova saw these 5 frames → “Have you ever held something like a vine before?”</div><div class="ov pipe"><span>S3</span><span>Lambda</span><span>Rekognition</span><span class="on">Nova Pro</span><span>Fire TV</span></div></div>
+    <div>
+      <div class="t">1:05–1:45 仕組み(実物を見せる)</div>
+      <h2>クラウドが実際に動くところと、AI が見たもの</h2>
+      <dl>
+        <dt>映すもの</dt><dd>新しい動画を S3 に上げる → Lambda のログが流れる(早送り)→ Rekognition のショット → Nova が見た5枚と、できた質問 → アプリの一覧に「Questions ready」。下の帯で今どこかを光らせる</dd>
+        <dt>ナレーション(案)</dt><dd class="nar">“Upload a video to Amazon S3. A Lambda function splits it into shots with Rekognition. Nova Pro describes five frames, then asks only about what is in all of them.”</dd>
+        <dt>満たす条件</dt><dd>C5(動いた証拠)、C8(AI が見たものと質問を並べる)</dd>
+        <dt>新しく必要な収録</dt><dd>動画1本を登録してクラウドを実際に動かす様子の画面収録(Rekognition・Nova・Lambda の費用は少額)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="scene">
+    <div class="shot"><img src="sb/eval_crop.jpg" alt="評価に使ったフレームの一覧"><div class="ov mark ok" style="left:4%;top:4%">✓</div><div class="ov mark ng" style="left:70%;top:52%">✗</div></div>
+    <div>
+      <div class="t">1:45–2:05 正直な結果</div>
+      <h2>合っている例と外れた例を、実物で</h2>
+      <dl>
+        <dt>映すもの</dt><dd>評価に使ったフレームの一覧をゆっくり動かし、合っている質問に ✓、外れた質問に ✗ を付ける</dd>
+        <dt>ナレーション(案)</dt><dd class="nar">“We checked every question frame by frame: five to nine of ten matched the scene. When one doesn’t, the parent skips it, and it’s removed after three skips.”</dd>
+        <dt>満たす条件</dt><dd>C9(正直さ)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="scene">
+    <div class="shot"><img src="sb/raw_72.jpg" alt="再生画面に戻って締め"><div class="ov cap">Next: a “question track” for kids’ streaming — starting with Amazon Kids+</div></div>
+    <div>
+      <div class="t">2:05–2:15 次の一手と締め → クレジット</div>
+      <h2>再生画面に戻って締める</h2>
+      <dl>
+        <dt>映すもの</dt><dd>再生中の画面に一言を重ね、ロゴとリンク。最後にクレジットを流す(CC BY の出典)</dd>
+        <dt>ナレーション(案)</dt><dd class="nar">“Next, a question track for kids’ streaming, like subtitles. Turn screen time into talk time.”</dd>
+      </dl>
+    </div>
+  </section>
+
+  <p class="check">出来上がったら次の表で測ります(独立したレビュー役と数値で)。</p>
+  <table>
+    <tr><th>条件</th><th>測り方</th><th>目標</th></tr>
+    <tr><td>C2 製品が最初に映る</td><td>先頭からの秒数</td><td>5秒以内</td></tr>
+    <tr><td>C3 製品の割合</td><td>シミュレータ画面とクラウド画面の秒数の合計 ÷ 全体</td><td>60%以上</td></tr>
+    <tr><td>C4 静止</td><td>ffmpeg freezedetect(n=0.003, d=2)</td><td>一時停止を見せる場面以外で5秒を超えない</td></tr>
+    <tr><td>C1 長さ</td><td>ffprobe</td><td>3分未満</td></tr>
+  </table>
+</main>
+</body>
+</html>

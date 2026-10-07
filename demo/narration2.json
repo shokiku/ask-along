@@ -1,0 +1,37 @@
+{
+  "_note": "2026-10-07 作り直し版のナレーション(Amazon Polly, Joanna neural)。場面ごとに1ファイル。文の区切りの時刻は Polly の speech marks で取り、画面の文字を出す時刻に使う。",
+  "s1_hook": "This is Ask-Along, a Fire TV app. While your family watches, it gives the parent one question about the scene on screen.",
+  "s2_problem": "Seventy-four percent of parents watch shows with their young kids, at least sometimes. In a study of eighty-one families, kids whose parents paused and asked questions scored highest on story comprehension and vocabulary. But in the moment, what should you ask?",
+  "s3_demo": [
+    [
+      0.2,
+      "Pick a show."
+    ],
+    [
+      4.0,
+      "A question appears while its scene is on screen."
+    ],
+    [
+      6.0,
+      "Press OK, and the show pauses while your child answers."
+    ],
+    [
+      12.0,
+      "Press OK again to keep watching."
+    ],
+    [
+      16.9,
+      "If a question doesn't fit, press Back. A question skipped three times is removed."
+    ],
+    [
+      24.6,
+      "Questions rotate through five types from dialogic reading research."
+    ]
+  ],
+  "s4_how": "Here is a real run from our AWS account. Uploading a video to Amazon S3 starts an AWS Lambda function. Amazon Rekognition splits the film into shots. For each moment, Amazon Nova Pro first describes five frames, frame by frame. If no character appears in every frame, the moment is skipped. Ten minutes of video became ten questions in about two and a half minutes.",
+  "s4_frames": "Here is what Nova saw for one question. The bunny stands in the forest, then holds a vine. So the parent gets: have you ever held something like a vine before?",
+  "s5_results": "We judged every question ourselves, against its frames. On this film's final run, five of ten matched the scene, three were weak, and two were wrong, like this one, which asks about a bird that isn't there.",
+  "s6_close": "Next, a question track for kids' streaming, delivered like subtitles. Ask-Along. Turn screen time into talk time.",
+  "s4_tv": "And here it is on the TV.",
+  "s1_hook_note": "(字幕のみ) When the scene changes, the card goes away"
+}
